@@ -1,19 +1,28 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import React from 'react';
+import { createGlobalStyle, ThemeProvider } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
+  /* Reset CSS */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+  }
+
   body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-`
+`;
 
 const theme = {
   colors: {
-    primary: '#0070f3',
+    primary: 'black',
   },
-}
+};
 
+// eslint-disable-next-line react/prop-types
 export default function App({ Component, pageProps }) {
   return (
     <>
@@ -22,5 +31,5 @@ export default function App({ Component, pageProps }) {
         <Component {...pageProps} />
       </ThemeProvider>
     </>
-  )
+  );
 }
