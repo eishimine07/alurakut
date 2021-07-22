@@ -21,4 +21,17 @@ module.exports = {
   rules: {
     'react/jsx-props-no-spreading': 'off',
   },
+  settings: {
+    'import/resolver': {
+      alias: {
+        map: [
+          ['@/components', './src/components'],
+          ['@/constants', './src/constants'],
+          ['@/lib', './src/lib'],
+          ['@/utils', './src/utils'],
+        ],
+        extensions: ['.js', '.jsx'],
+      },
+    },
+  },
 };

@@ -1,0 +1,15 @@
+const styles = {
+  BACKGROUND_DEFAULT: '#F1F9FE',
+  BACKGROUND_SECONDARY: '#D9E6F6',
+  ERROR_MESSAGE: '#EC0F0F',
+  GRAY_1: '#333333',
+  GRAY_2: '#5A5A5A',
+  GRAY_3: '#999999',
+  GRAY_4: '#C5C6CA',
+  GRAY_5: '#F4F4F4',
+  MAX_WIDTH: '1110px',
+  PRIMARY_ELEMENT: '#6F92BB',
+  PRIMARY_TEXT: '#2E7BB4',
+};
+
+export default styles;
