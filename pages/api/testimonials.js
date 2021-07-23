@@ -2,12 +2,10 @@ import { SiteClient } from 'datocms-client';
 import urls from '@/constants/urls';
 
 export default async function handler(request, response) {
-  const READONLY_TOKEN = 'ca4df6ecfff491de73dcb55c59549d';
-  const FULL_TOKEN = 'e7cb4707c58ca71614633d36bd95a9';
   const MODEL_ID = '1003029';
 
   if (request.method === 'POST') {
-    const client = new SiteClient(FULL_TOKEN);
+    const client = new SiteClient(process.env.DATO_TOKEN);
 
     if (!request.body.user) {
       response.status(401).json({
@@ -45,7 +43,7 @@ export default async function handler(request, response) {
       headers: {
         'Content-Type': 'application/json',
         Accept: 'application/json',
-        Authorization: `Bearer ${READONLY_TOKEN}`,
+        Authorization: `Bearer ${process.env.DATO_TOKEN}`,
       },
       body: JSON.stringify({
         query: `query {
