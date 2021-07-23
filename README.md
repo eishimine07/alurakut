@@ -17,6 +17,11 @@ Projeto desenvolvido com base no [Alurakut Base](https://github.com/alura-challe
 
 Usamos a api do GitHub para validar o usuário e pegar algumas informações como nome, foto do perfil e seguidores.
 
+![login (3)](https://user-images.githubusercontent.com/42844611/126819155-70faead2-8c32-496f-a5af-cb117f818c74.PNG)
+
+![home (2)](https://user-images.githubusercontent.com/42844611/126819186-e4a1415a-6401-485f-a6d7-ec7546ddb15d.PNG)
+
+
 ## Tecnologias
 * [React](https://pt-br.reactjs.org/)
 * [Next.js](https://nextjs.org/)
