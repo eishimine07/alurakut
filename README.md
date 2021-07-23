@@ -1,6 +1,10 @@
-![Logo Alurakut](https://alurakut.vercel.app/logo.svg)
-Desenvolvido após a semana da Imersão React promovida pela 
-[Alura](https://www.alura.com.br/)
+<p align="center">
+ <img src="https://alurakut.vercel.app/logo.svg" />
+</p>
+
+<p align="center">
+ Desenvolvido após a semana da Imersão React promovida pela <a href="https://www.alura.com.br">Alura</a>
+</p>
 
 <p align="center">
  <a href="#sobre">Sobre</a> •
